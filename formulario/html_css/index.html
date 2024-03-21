@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>form-html</title>
+</head>
+<body>
+    <div class="container">
+        <div class="presentation">
+            <h1>THE FINALS</h1>
+            <p>Add a weapon</p>
+        </div>
+        <form action="#" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="build">Build:</label>
+                <input type="text" id="build" name="build" required>
+            </div>
+            <div class="form-group">
+                <label for="type">Type:</label>
+                <input type="text" id="type" name="type" required>
+            </div>
+            <div class="form-group">
+                <label for="body">Body:</label>
+                <input type="text" id="body" name="body" required>
+            </div>
+            <div class="form-group">
+                <label for="headshotMultiplier">Headshot Multiplier:</label>
+                <input type="number" id="headshotMultiplier" name="headshotMultiplier" step="0.01" required>
+            </div>
+            <div class="form-group">
+                <label for="dps">DPS:</label>
+                <input type="number" id="dps" name="dps" step="0.01" required>
+            </div>
+            <div class="form-group">
+                <label for="seasonIntroduced">Season Introduced:</label>
+                <select id="seasonIntroduced" name="seasonIntroduced" required>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="image">Upload Image:</label>
+                <input type="file" id="image" name="image" accept="image/*" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

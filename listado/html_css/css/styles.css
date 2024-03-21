@@ -38,8 +38,3 @@
 .styled-table tbody tr:last-of-type {
     border-bottom: 2px solid #d21f3c;
 }
-
-img {
-    width: auto;
-    height: 100;    
-}
