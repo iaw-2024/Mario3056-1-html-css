@@ -1,0 +1,27 @@
+/* styles.css */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    overflow-x:auto;
+    max-width:100%;
+    white-space:nowrap;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>form-html</title>
+</head>
+
+<body>
+    <div>
+        <div>
+            <h1>Formulario</h1>
+            <br>
+        </div>
+        <form>
+            <ul>
+                <li>
+                    <label for="name">First name:</label>
+                    <input class="textBoxInput" type="text" id="name" name="user_name" />
+                </li>
+                <li>
+                    <label for="lastName">Last name:</label>
+                    <input class="textBoxInput" type="text" id="lastName" name="user_last_name" />
+                </li>
+                <li>
+                    <label for="mail">Email:</label>
+                    <input class="textBoxInput" type="email" id="mail" name="user_email" />
+                </li>
+                <li>
+                    <label for="gender">Gender:</label>
+                    <select name="genders" id="genders">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="creditCard">Credit Card:</label>
+                    <input class="textBoxInput" type="number" id="creditCard" name="creditNumber">
+                </li>
+                <li>
+                    <label for="companyName">Company:</label>
+                    <input class="textBoxInput" type="text" id="companyName"/>
+                </li>
+                <li>
+                    <label for="city">City:</label>
+                    <input class="textBoxInput" type="text" id="city"/>
+                </li>
+                <li>
+                    <label for="state">State:</label>
+                    <select class="textBoxInput" name="states" id="states">
+                        <option value="choose">Choose...</option>
+                        <option value="...">...</option>
+                    </select>
+                </li>
+                <li>
+                    <label>Zip code:</label>
+                    <input class="textBoxInput" type="number" id="zipCode">
+                </li>
+                <li>
+                    <label><input type="checkbox" /> Yes, I accept the <a href="https://www.w3.org/Provider/Style/dummy.html">Terms of use</a>.</label>
+                </li>
+                <li class="button">
+                    <button type="submit">Submit</button>
+                </li>
+            </ul>
+        </form>
+    </div>
+</body>
+
+</html>
